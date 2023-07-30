@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --cor-primaria: #212A3E;
+    --cor-sencundaria: #F1F6F9;
+    --cor-terciaria: #9BA4B5;
+
+    --cor-hover-fundo: #394867;
+    --cor-hover-texto: #577BC1; 
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-sencundaria);
+}
+
+.cabecalho {
+    padding: 2% 0 0 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+
+.projetos {
+    padding: 5% 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.projetos__conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.apresentacao {
+    padding: 5% 15%;
+    display: flex;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.apresentacao__conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__secundario {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+}
+
+.apresentacao__conteudo__subtitulo {
+    font-size: 1.5rem;
+    font-family: var(--fonte-primaria);
+}
+
+.titulo-destaque {
+    color: var(--cor-hover-texto);
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+}
+
+.apresentacao__conteudo__lista {
+    margin: 0;
+    padding: 5px;
+    list-style-type: square;
+    font-size: 1.2rem;
+    font-family: var(--fonte-secundaria);   
+    color: var(--cor-sencundaria);
+    
+}
+
+.apresentacao__conteudo__lista__link {
+    margin: 0;
+    padding: 20px;
+    list-style-type: square;
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);   
+    color: var(--cor-sencundaria);
+    text-decoration: none;
+}
+
+.apresentacao__conteudo__lista__link:hover {
+    color: var(--cor-hover-texto);
+}
+
+.apresentacao__conteudo__link {
+    margin: 0;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+    color: var(--fonte-secundaria);
+    text-decoration: none;
+}
+
+.apresentacao__conteudo__link:hover {
+    color: var(--cor-hover-texto);
+}
+
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__subtitulo {
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.apresentacao__links__navegacao {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--cor-terciaria);
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--cor-sencundaria);
+    font-family: var(--fonte-secundaria);
+}
+
+.apresentacao__links__navegacao:hover {
+    background-color: var(--cor-hover-fundo);
+    color: silver;
+}
+
+.apresentacao__imagem {
+    border: 4px solid var(--cor-hover-fundo);
+    border-radius: 10px;
+    max-width: 40%;
+}
+
+.apresentacao__imagem__projeto {
+    max-width: 100%;
+    border-radius: 10px;
+    border: 4px solid var(--cor-terciaria);
+}
+
+.apresentacao__imagem__projeto__inicio {
+    max-width: 100%;
+    border-radius: 10px;
+    border: 4px solid var(--cor-terciaria);
+}
+
+.rodape {
+    padding: 24px;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
