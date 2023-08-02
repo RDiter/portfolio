@@ -1,4 +1,4 @@
-@media (min-width: 0px ) and (max-width: 500px) {
+@media (min-width: 0px) and (max-width: 500px) {
     .cabecalho {
         padding: 5%;
     }
@@ -15,22 +15,54 @@
     .apresentacao {
         flex-direction: column;
         align-items: center;
-        padding: 3% ;
+        padding: 3%;
+        gap: 30px;
+    }
+
+    .projetos__conteudo {
+        width: auto;
     }
 
     .apresentacao__conteudo {
         width: auto;
     }
 
-    .apresentacao__conteudo__titulo {
-        font-size: 1.8rem;
+    .apresentacao__links {
+        gap: 10px;
     }
 
+    .apresentacao__links__navegacao {
+        gap: 6px;
+        width: 43;
+        padding: 15px 0;
+        font-size: 1.2rem;
+    }
+
+    .apresentacao__conteudo__titulo {
+        font-size: 1.5rem;
+    }
+
+    .apresentacao__conteudo__texto {
+        font-size: 1.2rem;
+    }
+
+    .apresentacao__conteudo__subtitulo {
+        font-size: 1.3rem;
+    }
+
+    .apresentacao__conteudo__secundario {
+        width: auto;
+        gap: 10px;
+    }
+
+    .apresentacao__conteudo__link {
+        padding: 5px;
+    }
 
 }
 
-@media (min-width: 500px ) and (max-width: 1200px) {
-    
+@media (min-width: 500px) and (max-width: 1200px) {
+
     .cabecalho {
         padding: 5%;
     }
@@ -43,15 +75,13 @@
     .apresentacao {
         flex-direction: column;
         align-items: center;
-        padding: 3% ;
+        padding: 3%;
     }
 
     .apresentacao__conteudo {
         width: auto;
     }
-    
-}
-
-@media (min-width: 1200px ) and (max-width: 1500px) {
 
 }
+
+@media (min-width: 1200px) and (max-width: 1500px) {}
